@@ -1,0 +1,37 @@
+{
+  "name": "eslint-plugin-import-on-demand",
+  "version": "0.0.2",
+  "description": "detect any import or require statement that fully imports the whole package",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": {
+    "email": "sakopqiu@gmail.com",
+    "name": "sakop"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sakopqiu/eslint-plugin-import-on-demand.git"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "4.18.2",
+    "mocha": "^7.1.2",
+    "typescript": "^3.8.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
